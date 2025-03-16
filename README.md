@@ -30,3 +30,33 @@ NGC 4697	192.1495343	-5.8006418
 NGC 4775	193.4404369	-6.622408
 
 ```
+
+## 🚀 **How to Use**
+
+1️⃣ **Clone the Repository**
+
+```
+git clone https://github.com/kefrankk/fetch_galaxy_coords.git
+cd fetch_galaxy_coords
+```
+
+2️⃣ **Install Dependencies**
+
+```
+pip install -r requirements.txt
+```
+
+3️⃣ **Run the Script**
+Execute the script to fetch coordinates:  
+```bash
+python fetch_galaxy_coords.py
+```
+
+## 📂 **Project Structure**  
+```
+💁 galaxy_position_finder/
+|── 📄 fetch_galaxy_coords.py   # Main script to fetch galaxy positions  
+|── 📄 galaxies.txt       # List of galaxies to be queried  
+|── 📄 galaxies_coords.txt  # Output file with RA and DEC  
+|── 📄 README.md          # Project documentation  
+```
